@@ -1,8 +1,7 @@
 [workspace]
 
 members = [
-    "src/tc/lib",
-    "xtask",
+    "src/taskchampion-cpp",
 ]
 
 resolver = "2"
@@ -15,4 +14,4 @@ ffizz-header = "0.5"
 libc = "0.2.136"
 pretty_assertions = "1"
 regex = "^1.10.2"
-taskchampion = "0.6"
+taskchampion = { git = "https://github.com/GothenburgBitFactory/taskchampion.git", branch = "main" }
